@@ -1,0 +1,182 @@
+/* IMPOSTAZIONI GENERALI */
+@media screen and (max-width: 576px) {
+  body {
+    max-width: 500px;
+    font-size: 0.9rem;
+  }
+  form {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    width: 100% margin 50px;
+  }
+  .articoli-correlati {
+    display: inline;
+  }
+  .articoli-correlati > div {
+    width: 33.3%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  div {
+    display: inline-block;
+  }
+}
+
+body {
+  width: fit-content;
+  margin: 50px;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  background-image: url("./sfondo.png");
+  line-height: 1.8rem;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+}
+
+div > .epicode-logo {
+  width: 500px;
+  height: 300px;
+  object-fit: contain;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+p {
+  font: 1rem;
+}
+
+.header-box {
+  margin: 10;
+  padding: 20px;
+  background-color: rgb(64, 160, 173);
+  color: white;
+  text-align: center;
+  font-style: bold;
+  box-shadow: -6px 10px 9px 0px #333;
+}
+
+main {
+  background-color: white;
+  box-shadow: -6px 10px 9px 0px #333;
+  padding: 10px;
+}
+
+.text-box {
+  background-color: lightgrey;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+div {
+  margin: 20px;
+  display: block;
+  padding: 10px;
+  border-color: 2px black solid;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+table {
+  width: 100%;
+  display: inline-block;
+}
+
+thead {
+  border-bottom: solid aqua;
+}
+
+th {
+  font-weight: 700;
+  border-bottom: solid lightgray;
+  padding-inline: 5px;
+}
+tr {
+  margin: 10px;
+  text-align: center;
+}
+ul {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+.ul-title {
+  color: rgb(228, 69, 114);
+  font-weight: 200;
+}
+video {
+  width: 100%;
+  height: fit-content;
+}
+
+/* FORM */
+.news-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 10px;
+}
+.news-box {
+  padding: 10px;
+  background-color: lightgray;
+}
+.show-in-print {
+  display: none;
+}
+button {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+@media print {
+  .hide-in-print {
+    display: none;
+  }
+  .epicode-logo {
+    display: none;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    font-weight: 200;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  div {
+    margin: 0;
+  }
+  .text-box {
+    font-weight: 700;
+  }
+}
